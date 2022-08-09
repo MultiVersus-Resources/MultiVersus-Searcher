@@ -8,3 +8,6 @@
 - Open a new terminal in the source folder
 - Use the command `npm .` or `npm index.js`
 - Write the cosmetic name and send the command
+
+
+<b>Made with ❤️ by [ᴅᴊʟᴏʀ3xᴢo](https://github.com/djlorenzouasset)</b>
