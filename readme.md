@@ -5,9 +5,12 @@
 
 ## Usage
 
-- Open a new terminal in the source folder
-- Use the command `npm .` or `npm index.js`
-- Write the cosmetic name and send the command
+- Download node [here](https://nodejs.org/en/) 
+- Open `InstallPackages.bat` for install all packages
+- Open `RunProject.bat` for run the program
 
+## Features
 
-<b>Made with ❤️ by [ᴅᴊʟᴏʀ3xᴢo](https://github.com/djlorenzouasset)</b>
+- Added start menù 
+- Added All cosmetics and Aes Key commands
+- Fixed some bugs
