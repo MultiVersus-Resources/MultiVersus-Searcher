@@ -9,7 +9,7 @@ class Program {
         this.search = 'https://api.lunarmv.ml/api/v1/search/';
         this.all = 'https://api.lunarmv.ml/api/v1/allCosmetics';
         this.aes = 'https://api.lunarmv.ml/api/v1/aes/keys';
-        this.profile = 'https://api.lunarmv.ml/api/v1/accounts/'; // fixed endpoint
+        this.profile = 'https://api.lunarmv.ml/api/v1/accounts/'; // fixed endpoint of account search
     };
 
     menu() { // show start menu
