@@ -9,7 +9,7 @@ class Program {
         this.search = 'https://api.lunarmv.ml/api/v1/search/';
         this.all = 'https://api.lunarmv.ml/api/v1/allCosmetics';
         this.aes = 'https://api.lunarmv.ml/api/v1/aes/keys';
-        this.profile = 'https://api.lunarmv.ml/api/v1/accounts/';
+        this.profile = 'https://api.lunarmv.ml/api/v1/accounts/'; // fixed endpoint
     };
 
     menu() { // show start menu
@@ -37,7 +37,7 @@ class Program {
             this.getProfile();
         }
         else {
-            console.log(clc.red('Invalid choice'));
+            console.log(clc.red('Invalid choice, retry')); // log the choice error
             this.getChoice(); // in case the choice is invalid the program retry to get it
         }
     };
@@ -46,10 +46,10 @@ class Program {
         let name = prompt('Enter the cosmetic name: ');
         const cosmeticName = name.toLowerCase();
         const x = [];
-        const j = cosmeticName.split(' ');
-        for (var i = 0; i < j.length; i++) {
-            var s = j[i].charAt(0).toUpperCase() + j[i].slice(1);
-            x.push(s);
+        const j = cosmeticName.split(' '); 
+        for (var i = 0; i < j.length; i++) {  
+            var new_name = j[i].charAt(0).toUpperCase() + j[i].slice(1);  // transform the name in lower case with first letter in upper case
+            x.push(new_name);
         };
         var newName = "";
         for (var i = 0; i < x.length; i++) {
